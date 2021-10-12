@@ -1,0 +1,10 @@
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\bin\Debug\ColaDinamicaOrdenada.exe.config
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\bin\Debug\ColaDinamicaOrdenada.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\bin\Debug\ColaDinamicaOrdenada.pdb
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.csproj.AssemblyReference.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.Form1.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.Properties.Resources.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.csproj.GenerateResource.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.csproj.CoreCompileInputs.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Colas\ColaDinamicaOrdenada\ColaDinamicaOrdenada\obj\Debug\ColaDinamicaOrdenada.pdb

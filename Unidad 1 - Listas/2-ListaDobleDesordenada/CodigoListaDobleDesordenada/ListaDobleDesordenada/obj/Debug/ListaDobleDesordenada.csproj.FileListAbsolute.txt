@@ -1,0 +1,10 @@
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\bin\Debug\ListaDobleDesordenada.exe.config
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\bin\Debug\ListaDobleDesordenada.exe
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\bin\Debug\ListaDobleDesordenada.pdb
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.csproj.AssemblyReference.cache
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.Form1.resources
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.Properties.Resources.resources
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.exe
+C:\Users\josue\Desktop\ClaseListaDobleDesordenada\ListaDobleDesordenada\ListaDobleDesordenada\obj\Debug\ListaDobleDesordenada.pdb

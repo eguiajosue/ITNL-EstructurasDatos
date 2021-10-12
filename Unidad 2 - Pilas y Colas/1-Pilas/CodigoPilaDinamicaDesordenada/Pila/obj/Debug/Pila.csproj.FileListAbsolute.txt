@@ -1,0 +1,21 @@
+C:\Users\josue\Desktop\Pila\Pila\bin\Debug\Pila.exe.config
+C:\Users\josue\Desktop\Pila\Pila\bin\Debug\Pila.exe
+C:\Users\josue\Desktop\Pila\Pila\bin\Debug\Pila.pdb
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.Form1.resources
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.Properties.Resources.resources
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.exe
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.pdb
+C:\Users\josue\Desktop\Pila\Pila\obj\Debug\Pila.csproj.AssemblyReference.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\bin\Debug\Pila.exe.config
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\bin\Debug\Pila.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\bin\Debug\Pila.pdb
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.csproj.AssemblyReference.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.csproj.SuggestedBindingRedirects.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.Form1.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.Properties.Resources.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.csproj.GenerateResource.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.csproj.CoreCompileInputs.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 2\Pilas\Pila\Pila\obj\Debug\Pila.pdb
