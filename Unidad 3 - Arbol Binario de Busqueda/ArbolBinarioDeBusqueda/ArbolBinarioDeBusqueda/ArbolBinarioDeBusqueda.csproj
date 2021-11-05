@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AFCFC97-BCC0-4E17-879E-2F6ACE477A88}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ArbolBinarioDeBusqueda</RootNamespace>
+    <AssemblyName>ArbolBinarioDeBusqueda</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArbolBinarioBusqueda.cs" />
+    <Compile Include="CentroCultural.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nodo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Graphviz\bin\acyclic.exe" />
+    <Content Include="Resources\Graphviz\bin\bcomps.exe" />
+    <Content Include="Resources\Graphviz\bin\cairo.dll" />
+    <Content Include="Resources\Graphviz\bin\ccomps.exe" />
+    <Content Include="Resources\Graphviz\bin\cdt.dll" />
+    <Content Include="Resources\Graphviz\bin\cgraph++.dll" />
+    <Content Include="Resources\Graphviz\bin\cgraph.dll" />
+    <Content Include="Resources\Graphviz\bin\circo.exe" />
+    <Content Include="Resources\Graphviz\bin\concrt140.dll" />
+    <Content Include="Resources\Graphviz\bin\dijkstra.exe" />
+    <Content Include="Resources\Graphviz\bin\dot.exe" />
+    <Content Include="Resources\Graphviz\bin\expat.dll" />
+    <Content Include="Resources\Graphviz\bin\fdp.exe" />
+    <Content Include="Resources\Graphviz\bin\fontconfig.dll" />
+    <Content Include="Resources\Graphviz\bin\gc.exe" />
+    <Content Include="Resources\Graphviz\bin\getopt.dll" />
+    <Content Include="Resources\Graphviz\bin\glib-2.dll" />
+    <Content Include="Resources\Graphviz\bin\gml2gv.exe" />
+    <Content Include="Resources\Graphviz\bin\gobject-2.dll" />
+    <Content Include="Resources\Graphviz\bin\graphml2gv.exe" />
+    <Content Include="Resources\Graphviz\bin\gv2gml.exe" />
+    <Content Include="Resources\Graphviz\bin\gvc++.dll" />
+    <Content Include="Resources\Graphviz\bin\gvc.dll" />
+    <Content Include="Resources\Graphviz\bin\gvcolor.exe" />
+    <Content Include="Resources\Graphviz\bin\gvgen.exe" />
+    <Content Include="Resources\Graphviz\bin\gvpack.exe" />
+    <Content Include="Resources\Graphviz\bin\gvplugin_core.dll" />
+    <Content Include="Resources\Graphviz\bin\gvplugin_dot_layout.dll" />
+    <Content Include="Resources\Graphviz\bin\gvplugin_gdiplus.dll" />
+    <Content Include="Resources\Graphviz\bin\gvplugin_neato_layout.dll" />
+    <Content Include="Resources\Graphviz\bin\gvplugin_pango.dll" />
+    <Content Include="Resources\Graphviz\bin\gvpr.exe" />
+    <Content Include="Resources\Graphviz\bin\gxl2gv.exe" />
+    <Content Include="Resources\Graphviz\bin\libharfbuzz-0.dll" />
+    <Content Include="Resources\Graphviz\bin\mm2gv.exe" />
+    <Content Include="Resources\Graphviz\bin\msvcp140.dll" />
+    <Content Include="Resources\Graphviz\bin\msvcp140_1.dll" />
+    <Content Include="Resources\Graphviz\bin\msvcp140_2.dll" />
+    <Content Include="Resources\Graphviz\bin\msvcp140_codecvt_ids.dll" />
+    <Content Include="Resources\Graphviz\bin\neato.exe" />
+    <Content Include="Resources\Graphviz\bin\nop.exe" />
+    <Content Include="Resources\Graphviz\bin\osage.exe" />
+    <Content Include="Resources\Graphviz\bin\pango-1.dll" />
+    <Content Include="Resources\Graphviz\bin\pangocairo-1.dll" />
+    <Content Include="Resources\Graphviz\bin\pangoft2-1.dll" />
+    <Content Include="Resources\Graphviz\bin\pangowin32-1.dll" />
+    <Content Include="Resources\Graphviz\bin\patchwork.exe" />
+    <Content Include="Resources\Graphviz\bin\pathplan.dll" />
+    <Content Include="Resources\Graphviz\bin\pixman-1.dll" />
+    <Content Include="Resources\Graphviz\bin\sccmap.exe" />
+    <Content Include="Resources\Graphviz\bin\sfdp.exe" />
+    <Content Include="Resources\Graphviz\bin\tred.exe" />
+    <Content Include="Resources\Graphviz\bin\twopi.exe" />
+    <Content Include="Resources\Graphviz\bin\unflatten.exe" />
+    <Content Include="Resources\Graphviz\bin\vcruntime140.dll" />
+    <Content Include="Resources\Graphviz\bin\vcruntime140_1.dll" />
+    <Content Include="Resources\Graphviz\bin\xdot.dll" />
+    <Content Include="Resources\Graphviz\include\graphviz\AGraph.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\arith.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\cdt.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\cgraph.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\color.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\geom.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\graphviz_version.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvc.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvcext.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvcjob.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvcommon.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvconfig.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\GVContext.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\GVLayout.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin_device.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin_layout.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin_loadimage.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin_render.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\gvplugin_textlayout.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\GVRenderData.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\pack.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\pathgeom.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\pathplan.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\textspan.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\types.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\usershape.h" />
+    <Content Include="Resources\Graphviz\include\graphviz\xdot.h" />
+    <Content Include="Resources\Graphviz\Uninstall.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DibujarFigura.bat" />
+    <None Include="Resources\Graphviz\bin\config6" />
+    <None Include="Resources\Graphviz\lib\cdt.lib" />
+    <None Include="Resources\Graphviz\lib\cgraph++.lib" />
+    <None Include="Resources\Graphviz\lib\cgraph.lib" />
+    <None Include="Resources\Graphviz\lib\gvc++.lib" />
+    <None Include="Resources\Graphviz\lib\gvc.lib" />
+    <None Include="Resources\Graphviz\lib\gvplugin_core.lib" />
+    <None Include="Resources\Graphviz\lib\gvplugin_dot_layout.lib" />
+    <None Include="Resources\Graphviz\lib\gvplugin_gdiplus.lib" />
+    <None Include="Resources\Graphviz\lib\gvplugin_neato_layout.lib" />
+    <None Include="Resources\Graphviz\lib\gvplugin_pango.lib" />
+    <None Include="Resources\Graphviz\lib\pathplan.lib" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libcdt.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libcgraph.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libgvc.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libgvpr.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\liblab_gamut.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libpathplan.pc" />
+    <None Include="Resources\Graphviz\lib\pkgconfig\libxdot.pc" />
+    <None Include="Resources\Graphviz\lib\xdot.lib" />
+    <None Include="Resources\Graphviz\share\man\man1\acyclic.1" />
+    <None Include="Resources\Graphviz\share\man\man1\bcomps.1" />
+    <None Include="Resources\Graphviz\share\man\man1\ccomps.1" />
+    <None Include="Resources\Graphviz\share\man\man1\dijkstra.1" />
+    <None Include="Resources\Graphviz\share\man\man1\dot.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gc.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gml2gv.1" />
+    <None Include="Resources\Graphviz\share\man\man1\graphml2gv.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gvcolor.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gvgen.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gvpack.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gvpr.1" />
+    <None Include="Resources\Graphviz\share\man\man1\gxl2gv.1" />
+    <None Include="Resources\Graphviz\share\man\man1\mm2gv.1" />
+    <None Include="Resources\Graphviz\share\man\man1\nop.1" />
+    <None Include="Resources\Graphviz\share\man\man1\osage.1" />
+    <None Include="Resources\Graphviz\share\man\man1\patchwork.1" />
+    <None Include="Resources\Graphviz\share\man\man1\sccmap.1" />
+    <None Include="Resources\Graphviz\share\man\man1\tred.1" />
+    <None Include="Resources\Graphviz\share\man\man1\unflatten.1" />
+    <None Include="Resources\Graphviz\share\man\man3\cdt.3" />
+    <None Include="Resources\Graphviz\share\man\man3\cgraph.3" />
+    <None Include="Resources\Graphviz\share\man\man3\gvc.3" />
+    <None Include="Resources\Graphviz\share\man\man3\pack.3" />
+    <None Include="Resources\Graphviz\share\man\man3\pathplan.3" />
+    <None Include="Resources\Graphviz\share\man\man3\xdot.3" />
+    <None Include="Resources\img_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_15.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

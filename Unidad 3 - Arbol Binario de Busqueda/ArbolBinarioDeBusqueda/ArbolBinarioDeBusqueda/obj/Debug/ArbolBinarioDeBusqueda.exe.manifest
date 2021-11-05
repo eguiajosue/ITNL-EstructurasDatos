@@ -1,0 +1,856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ArbolBinarioDeBusqueda.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ArbolBinarioDeBusqueda" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ArbolBinarioDeBusqueda.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ArbolBinarioDeBusqueda.exe" size="6646784">
+      <assemblyIdentity name="ArbolBinarioDeBusqueda" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ursJDKr/T/QfsEi5Pn6it6/wW+OXQy6QjpeSy6B4f2I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ArbolBinarioDeBusqueda.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+CM46OnHRrXZXNLMx7+U3V3iubiYL//d8hGOR13lDhU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\acyclic.exe" size="12800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>f9+oDTKRob6/IYu0kYB4v+KtKNNLOUCJT+RO1d9gSfY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\bcomps.exe" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fpfyh2VUlMX4toszLwSS0RoHV4tPzLH65/GfEqPONvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\cairo.dll" size="1506816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bman8KfE5aBzKOwSaZ3hDx+zfKDc9IRGvGOlylCQzVo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\ccomps.exe" size="23040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3Hu1Yx2GQFWAj4B5omvGBY8tgzmOQmtWaWRvdgztYvw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\cdt.dll" size="24576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6hONUtUFOoUd0ljCX/MCXaL4BUgVY5lNfPtxj+vjO8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\cgraph.dll" size="73728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Mc2HWhqL24nGfj6vDa//alKtJognrUz1epurGjZFWG4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\cgraph++.dll" size="11264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0jS+Ve7J96j6NAlMlMJcLYCLb/OnhJOo1oHb3fynQeI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\circo.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\concrt140.dll" size="317216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YSTrm1CR7Go/zWTufxWAnEuOuSh4/hOYdQ5EunA/jCo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\dijkstra.exe" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WQCtzMFycLJN+YDc17E6PQ/Y480SK7JyxREr5umf7pQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\dot.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\expat.dll" size="184832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oXBDbyfNm7vKPxiy1iCKzwKMb2ETT/DymMe74Emiwqs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\fdp.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\fontconfig.dll" size="830976">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Rq56p0ZfeQBkVwYlDPVJEbDeKJMu0yY4rlChuZqihBE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gc.exe" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hOcDq1pR8Jd8Nyx3QKYXNCBj+PFtl+b5CcDQ9nVaHuw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\getopt.dll" size="19968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cy/Nt4NcELS6w/ddtnUmjcW6J34O3eQPUfxx+yazjY8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\glib-2.dll" size="1374208">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C7CN6RUcw314+UyZlTOTZbF0pJigrGyQIOFvvSpeJjM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gml2gv.exe" size="35328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gct8rTHv2IWK+FyQLNTS1qvA5kUU0pCaQwKhv2C163k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gobject-2.dll" size="276480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OqljKpQplcWvcRJO83cpIj1HtVFUGtnKcm2lAL1eTFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\graphml2gv.exe" size="20480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>X33sC4usTTE3PjMZnwHpBDlbg4vDHAgta+KJ/9JCiCE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gv2gml.exe" size="22016">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ul8j2aAOy4VqOzdrVsX1cXGC+m4dug7Kqi6E2mrgzmo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvc.dll" size="536064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sYbnDtZegHOrbNKFtotX/Ox98or7y2wuNoYzYSSr4QE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvc++.dll" size="17920">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8ahnx06EUTohtytqDg/LfPKLbu5ahMAuT/GD5QM5JSc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvcolor.exe" size="36352">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GYt5IgsNp7dCJ+0EYT6NZ3VkdXC0WcFD09w1ZWAoLiA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvgen.exe" size="24576">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hPUGvNYFkkVUupGp7KOhs0Nf62sj4ZrSfL603gadw+s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvpack.exe" size="84992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PcTh/1XZLwf0tWCUAvVmpu9I57UZ1dppJl1HWiHYgvE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvplugin_core.dll" size="119296">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vW8M7puS86oXmZsQ0IgiGbu0ZO/kpxnZH1+grQNaw8o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvplugin_dot_layout.dll" size="156672">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AL8hcxaYeyDlWjJgc5aTB2c6FNSzdimpO0El3Wff3UM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvplugin_gdiplus.dll" size="31232">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ReomF+tHUZ3jQv7xKOdhzayh1RXMo/e56PbKAKPqXnI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvplugin_neato_layout.dll" size="374272">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Gh+Pmln9fJhkw36MyhwgozalF/VVUtL8wjxkxjR3Mak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvplugin_pango.dll" size="35328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Tx6l+xwGV+CXb8eb4XMuE+hCSyFo4K6RIbswPpt6sNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gvpr.exe" size="324096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x4bS+lh3yAmVeV+92w7ovkaPB2QZ618NkV1nCWRqud0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\gxl2gv.exe" size="35840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+uYW4dsnhuX3oURGsljcl6xDmvQKvFhlrPenfzg3GWg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\libharfbuzz-0.dll" size="922112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gWKN2HYBH1AVL5ZYNA2YdlkSclLiO8Fm8HZk3W0dQ9U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\mm2gv.exe" size="33792">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s2i6muxBqE25+DV5fuPoxV163yXQS08ir+dDvfMi780=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\msvcp140.dll" size="590096">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>osucrkuGRoykS6NjIIFKIE7IrTEd9iS5ThLEfjKOJyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\msvcp140_1.dll" size="31528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UsjfrWOq9yhP5foqxX1AYgbEIOOJp3vZpeKhJvbe6vA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\msvcp140_2.dll" size="193312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kKNLul9RiP7CZ0wmdP5XZGZBAtufax/+nGaTEtZQ508=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\msvcp140_codecvt_ids.dll" size="27424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aAVijMwjeQqPGvYa6kBz5i4P/3pFZpMDcCzTwrWJKrk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\neato.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\nop.exe" size="12800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GDKKXI3+m6x+6/RXIc5m35vnuPVHutqslzdH0LoO55s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\osage.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pango-1.dll" size="287744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lnc5l+u/ALj4jWCkguXXqOQEegBPuNV4ZxCQqaFvBFM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pangocairo-1.dll" size="612864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I8iF9L/BiLLvxNPrZzMNp9R49EOfxIjT4pdWLitpffc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pangoft2-1.dll" size="639488">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UBZnzJA+edlFExlOAZ1/DoSbdpOihZoJBaKgkiy5cVU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pangowin32-1.dll" size="65536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vsysc1BfXlx2gBdZXufUH8gh9cUv4nLxqWbdbSl9MTU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\patchwork.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pathplan.dll" size="42496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5qz1YHkxONBCUn43zRvg1yY5tagXGOkcZRAHRgJkdOo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\pixman-1.dll" size="578560">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HnIByKd7bF/IftdYqTNxifY2X0NuQneMSZNssJsklVM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\sccmap.exe" size="17408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/0U6UVel8/CCBcmavsI24RKPXJ5plotIctIz4bYEIkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\sfdp.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\tred.exe" size="16896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HiUNke+rU4wo9swm5vzaDCCqcJw4qoaS+RG8BxASiKY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\twopi.exe" size="12288">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/bFUSsETVPN7P1qEhtP0H6BONCWEpy1Nv5aDr9+Qxuo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\unflatten.exe" size="16384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qgw+1en+Ql9lE2jVtE223NVAdDdXV9yye1fKTAzx/pg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\vcruntime140.dll" size="101664">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CwQKMUwZ/4jzj9nIncotSTETphCa24Ulczw/ZifaiI8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\vcruntime140_1.dll" size="44328">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>u86pOUP34opNkEMB/0u3CK2uxMwngAAgBECF+4ONTl0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\bin\xdot.dll" size="24064">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d/LawcSe2BKHm2441RjzkP+6QHkB1hwGI1dNuX4/C8c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\AGraph.h" size="1252">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KEdBNwsJLZA0sZRLvB+wD3ufoK1wTxEZEEtct6hpFvo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\arith.h" size="2008">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FcGSC4x31a6uBZk29bzwWqtKrbt0s4ChkM0ZelKKAHI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\cdt.h" size="10338">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>90stMvvduWPE43i/NYnvoUr0t8K77+TwXOielZCC1EM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\cgraph.h" size="18036">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NnlVwUjD7ovU3FDvPYCnVTnRid6vpbZW0OPlJWkrUiw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\color.h" size="1277">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RZjFzD0K86yc75Ek3O9crqlpvoKEQmDMgvrAasLl3qo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\geom.h" size="2878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>C9CbkTUelbG9ia1mwfcn6l+otiL5o5uKESDLW/spuKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\graphviz_version.h" size="305">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KibnFKCyPJSK6hsPv7VzVjptbUaRNrKt2bVsoNuaSvo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvc.h" size="4375">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2FaQWNjJSaIJfN/0Ch4mbNL4QveAd3SKrYD2JYcF0u0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvcext.h" size="2230">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6NF1FliGP4tkrdheCnZP2hPBQr5xDWrdGtd6rs1ZPcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvcjob.h" size="13363">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jKJiePtH5902D/e+J0u0OUV9Ie8E6R1ec+qDlNrZyBQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvcommon.h" size="1057">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/QlJptNCQRjDo2ndxCmmG33xhKlZDtqLCkO26vFkN00=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvconfig.h" size="765">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NniYBPEP8iI3jkx/VsUlKRDMkgviSfsWprjwfSNo7Gw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\GVContext.h" size="1729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Chpkhc78XoAwU4YZ0PEoOpBY8lRQut0htmy9a6w3NWw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\GVLayout.h" size="1472">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ki2JmWzQIqiaz5CzIs6ilIJtuNDubpAPPiqOp2Nongs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin.h" size="1780">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VqJZxot5Bu1oxJqk6N4CXTNOgVncLUEnKc8kb3USwEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin_device.h" size="826">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>e4E4riv8hpTmz5FBs30YIkzruytEYzUN6FSbrdpa1lc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin_layout.h" size="774">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>udt0oftoDoy4xNWL5bDHBKXHxnZUkTpEqFKK0swTuow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin_loadimage.h" size="1308">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SVOMpzCqbgH8BH7iDtvZ6wAkkw0bogk0SSuRiUmKFxY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin_render.h" size="2156">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZyhiZNRAtGjOTO0eYSvIt39SQlQLsOX9bZ1tcaztAL4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\gvplugin_textlayout.h" size="797">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UdpycaI3rX+JT9UfUDD0YPUXfGtnKKkmycNynOIsAI4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\GVRenderData.h" size="1675">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+5EEiv9spEwr0BkzirCK0y9/lYXaoYrLWbyjAkedzS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\pack.h" size="3572">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5QzVmGs58H1Xn0BcpWEFz9mUWuA0a7Fn3vqxiXGWRng=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\pathgeom.h" size="1164">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nkv3HVWh0QZ3QMjXq4sQWGCkQAs9L5CFDTcwBKvrUZ0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\pathplan.h" size="1401">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6MMrHT8Od48FSLspE3RaIwEV4vcfEtxIT5KLSbTkoMw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\textspan.h" size="1970">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ExGBRbgXRKUeQrOOUPp1L+DlkCugqwMFX+Bm/5+mhiM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\types.h" size="21740">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YH24e7ZPxWSRBGnlb4NzGrJxaTOl5AdLzAfvunr7U+Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\usershape.h" size="2145">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UxSwmvetkbJ0e/IjVetBQUuLfJ7Ac5YPpPQGohdDwZc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\include\graphviz\xdot.h" size="4533">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>atysrGlv5k7UN8WU7HUj/A4Tp3N+w1jZKGwk4xkJkNM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Graphviz\Uninstall.exe" size="173204">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qvWZRjqqIlEVz7R+L3gIvG0AXYC5nI0Qwi+GOcw66cU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+</asmv1:assembly>

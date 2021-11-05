@@ -1,0 +1,16 @@
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\bin\Debug\ArbolBinarioDeBusqueda.exe.config
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\bin\Debug\ArbolBinarioDeBusqueda.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\bin\Debug\ArbolBinarioDeBusqueda.pdb
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.csproj.AssemblyReference.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.csproj.SuggestedBindingRedirects.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.Form1.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.Properties.Resources.resources
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.csproj.GenerateResource.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.csproj.CoreCompileInputs.cache
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.exe
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.pdb
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\bin\Debug\ArbolBinarioDeBusqueda.exe.manifest
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\bin\Debug\ArbolBinarioDeBusqueda.application
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.TrustInfo.xml
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.exe.manifest
+C:\Users\josue\Documents\TEC\3er Semestre\Estructura de Datos\Unidad 3\ArbolBinarioDeBusqueda\ArbolBinarioDeBusqueda\obj\Debug\ArbolBinarioDeBusqueda.application
