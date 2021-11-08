@@ -66,7 +66,9 @@ namespace MetodoBurbuja
 
         public int CompareTo(Alumno otroAlumno)
         {
-            return Calificacion.CompareTo(otroAlumno.Calificacion);
+            if (this.Calificacion > otroAlumno.Calificacion) return 1;
+            else if (this.Calificacion < otroAlumno.Calificacion) return -1;
+            else return 0;
         }
     }
 }

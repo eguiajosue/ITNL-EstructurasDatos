@@ -30,6 +30,7 @@
         {
             this.dtgEstudiantes = new System.Windows.Forms.DataGridView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.chkSennal = new System.Windows.Forms.CheckBox();
             this.btnDerecha = new System.Windows.Forms.Button();
             this.btnIzquierda = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -38,7 +39,6 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn5ObjetosAleatorios = new System.Windows.Forms.Button();
             this.btn50ObjetosAleatorios = new System.Windows.Forms.Button();
-            this.chkSennal = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dtgEstudiantes)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -73,24 +73,40 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tipo de ordenamiento";
             // 
+            // chkSennal
+            // 
+            this.chkSennal.AutoSize = true;
+            this.chkSennal.Location = new System.Drawing.Point(278, 45);
+            this.chkSennal.Name = "chkSennal";
+            this.chkSennal.Size = new System.Drawing.Size(75, 17);
+            this.chkSennal.TabIndex = 9;
+            this.chkSennal.Text = "Con Señal";
+            this.chkSennal.UseVisualStyleBackColor = true;
+            // 
             // btnDerecha
             // 
+            this.btnDerecha.BackColor = System.Drawing.SystemColors.Control;
+            this.btnDerecha.FlatAppearance.BorderSize = 0;
+            this.btnDerecha.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnDerecha.Location = new System.Drawing.Point(142, 37);
             this.btnDerecha.Name = "btnDerecha";
             this.btnDerecha.Size = new System.Drawing.Size(130, 32);
             this.btnDerecha.TabIndex = 8;
             this.btnDerecha.Text = "Derecha";
-            this.btnDerecha.UseVisualStyleBackColor = true;
+            this.btnDerecha.UseVisualStyleBackColor = false;
             this.btnDerecha.Click += new System.EventHandler(this.btnDerecha_Click);
             // 
             // btnIzquierda
             // 
+            this.btnIzquierda.BackColor = System.Drawing.SystemColors.Control;
+            this.btnIzquierda.FlatAppearance.BorderSize = 0;
+            this.btnIzquierda.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btnIzquierda.Location = new System.Drawing.Point(6, 37);
             this.btnIzquierda.Name = "btnIzquierda";
             this.btnIzquierda.Size = new System.Drawing.Size(130, 32);
             this.btnIzquierda.TabIndex = 7;
             this.btnIzquierda.Text = "Izquierda";
-            this.btnIzquierda.UseVisualStyleBackColor = true;
+            this.btnIzquierda.UseVisualStyleBackColor = false;
             this.btnIzquierda.Click += new System.EventHandler(this.btnIzquierda_Click);
             // 
             // groupBox3
@@ -139,8 +155,9 @@
             // 
             // btn5ObjetosAleatorios
             // 
-            this.btn5ObjetosAleatorios.BackColor = System.Drawing.Color.Azure;
-            this.btn5ObjetosAleatorios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn5ObjetosAleatorios.BackColor = System.Drawing.SystemColors.Control;
+            this.btn5ObjetosAleatorios.FlatAppearance.BorderSize = 0;
+            this.btn5ObjetosAleatorios.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn5ObjetosAleatorios.Location = new System.Drawing.Point(6, 22);
             this.btn5ObjetosAleatorios.Name = "btn5ObjetosAleatorios";
             this.btn5ObjetosAleatorios.Size = new System.Drawing.Size(194, 29);
@@ -151,8 +168,9 @@
             // 
             // btn50ObjetosAleatorios
             // 
-            this.btn50ObjetosAleatorios.BackColor = System.Drawing.Color.Azure;
-            this.btn50ObjetosAleatorios.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn50ObjetosAleatorios.BackColor = System.Drawing.SystemColors.Control;
+            this.btn50ObjetosAleatorios.FlatAppearance.BorderSize = 0;
+            this.btn50ObjetosAleatorios.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn50ObjetosAleatorios.Location = new System.Drawing.Point(6, 57);
             this.btn50ObjetosAleatorios.Name = "btn50ObjetosAleatorios";
             this.btn50ObjetosAleatorios.Size = new System.Drawing.Size(194, 29);
@@ -160,16 +178,6 @@
             this.btn50ObjetosAleatorios.Text = "50 objetos aleatorios";
             this.btn50ObjetosAleatorios.UseVisualStyleBackColor = false;
             this.btn50ObjetosAleatorios.Click += new System.EventHandler(this.btn50ObjetosAleatorios_Click);
-            // 
-            // chkSennal
-            // 
-            this.chkSennal.AutoSize = true;
-            this.chkSennal.Location = new System.Drawing.Point(278, 45);
-            this.chkSennal.Name = "chkSennal";
-            this.chkSennal.Size = new System.Drawing.Size(75, 17);
-            this.chkSennal.TabIndex = 9;
-            this.chkSennal.Text = "Con Señal";
-            this.chkSennal.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -181,7 +189,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Bubble Sort con objetos";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtgEstudiantes)).EndInit();
             this.groupBox2.ResumeLayout(false);

@@ -210,7 +210,7 @@ namespace MetodoBurbuja
                 miAlumno.Apellido = strApellidos[random.Next(strApellidos.Length)];
                 miAlumno.FechaNacimiento = FechaAleatoria();
                 miAlumno.Carrera = strCarreras[random.Next(strCarreras.Length)];
-                miAlumno.Calificacion = random.Next(1, 10);
+                miAlumno.Calificacion = random.Next(0, 100);
                 miAlumno.Regular = blnRegular[random.Next(blnRegular.Length)];
 
                 arregloAlumnos[i] = miAlumno;
@@ -368,7 +368,7 @@ namespace MetodoBurbuja
                 miAlumno.Apellido = strApellidos[random.Next(strApellidos.Length)];
                 miAlumno.FechaNacimiento = FechaAleatoria();
                 miAlumno.Carrera = strCarreras[random.Next(strCarreras.Length)];
-                miAlumno.Calificacion = random.NextDouble() * 100;
+                miAlumno.Calificacion = random.Next(0,100);
                 miAlumno.Regular = blnRegular[random.Next(blnRegular.Length)];
 
                 arregloAlumnos[i] = miAlumno;
@@ -384,11 +384,11 @@ namespace MetodoBurbuja
 
                 bool Sennal = true;
 
-                for (int i = 0; i < arregloAlumnos.Length; i++)
+                for (int i = 0; i < arregloAlumnos.Length && Sennal; i++)
                 {
                     Sennal = false;
 
-                    for (int j = 0; j < arregloAlumnos.Length - i - 1; j++)
+                    for (int j = 0; j < arregloAlumnos.Length - 1; j++)
                     {
                         intCantidadInteraciones++;
                         if (arregloAlumnos[j].CompareTo(arregloAlumnos[j + 1]) == 1)
@@ -401,8 +401,8 @@ namespace MetodoBurbuja
 
                             if (radPasoAPaso.Checked)
                             {
-                                Mostrar();
                                 MessageBox.Show($"Estado de la señal: {Sennal}\nSe ha intercambiado el elemento: {arregloAlumnos[j + 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos con Señal");
+                                Mostrar();
                             }
                         }
                         
@@ -416,7 +416,7 @@ namespace MetodoBurbuja
 
                 for (int i = 0; i < arregloAlumnos.Length; i++)
                 {
-                    for (int j = 0; j < arregloAlumnos.Length - i - 1; j++)
+                    for (int j = 0; j < arregloAlumnos.Length - 1; j++)
                     {
                         intCantidadInteraciones++;
                         if (arregloAlumnos[j].CompareTo(arregloAlumnos[j + 1]) == 1)
@@ -428,8 +428,8 @@ namespace MetodoBurbuja
 
                             if (radPasoAPaso.Checked)
                             {
-                                Mostrar();
                                 MessageBox.Show($"Se ha intercambiado el elemento: {arregloAlumnos[j + 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos");
+                                Mostrar();
                             }
                         }
                     }
@@ -455,59 +455,73 @@ namespace MetodoBurbuja
         {
             if (chkSennal.Checked)
             {
-                Alumno alumnoAuxiliar;
-
-                bool Sennal = true;
-
-                for (int i = arregloAlumnos.Length - 1; i > 0; i--)
+                try
                 {
-                    Sennal = false;
+                    Alumno alumnoAuxiliar;
 
-                    for (int j = arregloAlumnos.Length - 1; j > 0; j--)
+                    bool Sennal = true;
+
+                    for (int i = 0; i < arregloAlumnos.Length; i++)
                     {
-                        intCantidadIteraciones++;
-                        if (arregloAlumnos[j].CompareTo(arregloAlumnos[j - 1]) == -1)
-                        {
-                            Sennal = true;
-                            alumnoAuxiliar = arregloAlumnos[j];
-                            arregloAlumnos[j] = arregloAlumnos[j - 1];
-                            arregloAlumnos[j - 1] = alumnoAuxiliar;
-                            intContador++;
+                        Sennal = false;
 
-                            if (radPasoAPaso.Checked)
+                        for (int j = arregloAlumnos.Length - 1; j > 0; j--)
+                        {
+                            intCantidadIteraciones++;
+                            if (arregloAlumnos[j].CompareTo(arregloAlumnos[j - 1]) == -1)
                             {
-                                Mostrar();
-                                MessageBox.Show($"Se ha intercambiado el elemento: {arregloAlumnos[j + 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos con Señal");
+                                Sennal = true;
+                                alumnoAuxiliar = arregloAlumnos[j];
+                                arregloAlumnos[j] = arregloAlumnos[j - 1];
+                                arregloAlumnos[j - 1] = alumnoAuxiliar;
+                                intContador++;
+
+                                if (radPasoAPaso.Checked)
+                                {
+                                    MessageBox.Show($"Se ha intercambiado el elemento: {arregloAlumnos[j - 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos con Señal");
+                                    Mostrar();
+                                }
                             }
                         }
                     }
+                    Mostrar();
                 }
-                Mostrar();
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
             else if (chkSennal.Checked == false)
             {
-                Alumno alumnoAuxiliar;
-                for (int i = arregloAlumnos.Length - 1; i > 0; i--)
+                try
                 {
-                    for (int j = arregloAlumnos.Length - 1; j > 0; j--)
+                    Alumno alumnoAuxiliar;
+                    for (int i = 0; i < arregloAlumnos.Length; i++)
                     {
-                        intCantidadIteraciones++;
-                        if (arregloAlumnos[j].CompareTo(arregloAlumnos[j - 1]) == -1)
+                        for (int j = arregloAlumnos.Length - 1; j > 0; j--)
                         {
-                            alumnoAuxiliar = arregloAlumnos[j];
-                            arregloAlumnos[j] = arregloAlumnos[j - 1];
-                            arregloAlumnos[j - 1] = alumnoAuxiliar;
-                            intContador++;
-
-                            if (radPasoAPaso.Checked)
+                            intCantidadIteraciones++;
+                            if (arregloAlumnos[j].CompareTo(arregloAlumnos[j - 1]) == -1)
                             {
-                                Mostrar();
-                                MessageBox.Show($"Se ha intercambiado el elemento: {arregloAlumnos[j + 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos");
+                                alumnoAuxiliar = arregloAlumnos[j];
+                                arregloAlumnos[j] = arregloAlumnos[j - 1];
+                                arregloAlumnos[j - 1] = alumnoAuxiliar;
+                                intContador++;
+
+                                if (radPasoAPaso.Checked)
+                                {
+                                    MessageBox.Show($"Se ha intercambiado el elemento: {arregloAlumnos[j - 1].Calificacion} con {arregloAlumnos[j].Calificacion}", "Intercambio de Elementos");
+                                    Mostrar();
+                                }
                             }
                         }
                     }
+                    Mostrar();
                 }
-                Mostrar();
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
             }
         }
 
