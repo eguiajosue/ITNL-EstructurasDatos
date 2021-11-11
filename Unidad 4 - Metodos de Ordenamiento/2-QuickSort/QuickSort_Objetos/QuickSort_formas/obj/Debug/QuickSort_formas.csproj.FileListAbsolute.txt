@@ -1,0 +1,10 @@
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.csprojAssemblyReference.cache
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.Form1.resources
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.Properties.Resources.resources
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.csproj.GenerateResource.cache
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.csproj.CoreCompileInputs.cache
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\bin\Debug\QuickSort_formas.exe.config
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\bin\Debug\QuickSort_formas.exe
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\bin\Debug\QuickSort_formas.pdb
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.exe
+C:\Users\sarah\Desktop\QuickSort_formas\QuickSort_formas\obj\Debug\QuickSort_formas.pdb

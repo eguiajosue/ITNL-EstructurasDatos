@@ -1,0 +1,13 @@
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.exe
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.deps.json
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.runtimeconfig.json
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.runtimeconfig.dev.json
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.dll
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\bin\Debug\netcoreapp3.1\EjemploQS.pdb
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.csprojAssemblyReference.cache
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.AssemblyInfoInputs.cache
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.AssemblyInfo.cs
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.csproj.CoreCompileInputs.cache
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.dll
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.pdb
+C:\Users\Luz Ithzel\source\repos\EjemploQS\EjemploQS\obj\Debug\netcoreapp3.1\EjemploQS.genruntimeconfig.cache
