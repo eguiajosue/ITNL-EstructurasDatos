@@ -8,23 +8,30 @@ namespace EguiaRodriguezJosueFrancisco
 {
     class ListaSimpleDesordenada<Tipo> where Tipo : IEquatable<Tipo>
     {
+        #region "Nodo Inicial"
         private Nodo<Tipo> _nodoInicial;
         private Nodo<Tipo> NodoInicial
         {
             get { return _nodoInicial; }
             set { _nodoInicial = value; }
         }
+        #endregion
 
+        #region Vacia
         public bool Vacia
         {
             get { return NodoInicial == null; }
         }
-        
+        #endregion
+
+        #region Constructor
         public ListaSimpleDesordenada()
         {
             NodoInicial = null;
         }
+        #endregion
 
+        #region Método para recorrer la lista
         public IEnumerator<Tipo> GetEnumerator()
         {
             if (NodoInicial == null)
@@ -44,7 +51,14 @@ namespace EguiaRodriguezJosueFrancisco
                 yield break;
             }
         }
+        #endregion
 
+        #region Agregar Nodo
+        /// <summary>
+        /// Método para agregar un nuevo objeto a la lista
+        /// </summary>
+        /// <param name="objeto">Se pasa el objeto que se agregará a la lista</param>
+        /// <exception cref="Exception"></exception>
         public void AgregarNodo(Tipo objeto)
         {
             if (Vacia)
@@ -80,8 +94,15 @@ namespace EguiaRodriguezJosueFrancisco
                 nodoPrevio.Siguiente = nodoNuevo;
             }
         }
+        #endregion
 
-
+        #region Buscar nodo
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="objeto"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
         public Tipo BuscarNodo(Tipo objeto)
         {
             if (Vacia)
@@ -109,8 +130,15 @@ namespace EguiaRodriguezJosueFrancisco
                 throw new Exception("El elemento que está buscando no existe");
             }
         }
+        #endregion
 
-
+        #region Eliminar Nodo
+        /// <summary>
+        /// Se recibe un método y se recorre la lista, si se encuentrá el nodo introducido entonces se eliminará de la lista
+        /// </summary>
+        /// <param name="objeto"></param>
+        /// <returns>Retorna los datos del objeto a eliminar</returns>
+        /// <exception cref="Exception"></exception>
         public Tipo EliminarNodo(Tipo objeto)
         {
             if (Vacia)
@@ -147,8 +175,13 @@ namespace EguiaRodriguezJosueFrancisco
                 throw new Exception("No se encontró el elemento para eliminar");
             }
         }
+        #endregion
 
-
+        #region Vaciar Lista
+        /// <summary>
+        /// Método para vaciar la lista
+        /// </summary>
+        /// <exception cref="Exception"></exception>
         public void Vaciar()
         {
             if (Vacia)
@@ -171,7 +204,9 @@ namespace EguiaRodriguezJosueFrancisco
             }
             
         }
+        #endregion
 
+        #region Destructor
         ~ListaSimpleDesordenada()
         {
             try
@@ -183,5 +218,6 @@ namespace EguiaRodriguezJosueFrancisco
                 
             }
         }
+        #endregion
     }
 }

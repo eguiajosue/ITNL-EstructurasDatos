@@ -13,6 +13,7 @@ namespace EguiaRodriguezJosueFrancisco
 {
     public partial class Form1 : Form
     {
+
         ListaSimpleDesordenada<CentroCultural> listaCentrosCulturales = new ListaSimpleDesordenada<CentroCultural>();
         public Form1()
         {

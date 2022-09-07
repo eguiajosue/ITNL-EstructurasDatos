@@ -8,3 +8,14 @@ C:\Users\josue\Desktop\EguiaRodriguezJosueFrancisco\EguiaRodriguezJosueFrancisco
 C:\Users\josue\Desktop\EguiaRodriguezJosueFrancisco\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.exe
 C:\Users\josue\Desktop\EguiaRodriguezJosueFrancisco\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.pdb
 C:\Users\josue\Desktop\EguiaRodriguezJosueFrancisco\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.csproj.AssemblyReference.cache
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\bin\Debug\EguiaRodriguezJosueFrancisco.exe.config
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\bin\Debug\EguiaRodriguezJosueFrancisco.exe
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\bin\Debug\EguiaRodriguezJosueFrancisco.pdb
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.csproj.AssemblyReference.cache
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.csproj.SuggestedBindingRedirects.cache
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.Form1.resources
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.Properties.Resources.resources
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.exe
+C:\Users\josue\Desktop\ITNL-EstructurasDatos\Unidad 1 - Listas\1-ListaSimpleDesordenada\CodigoListaSimpleDesordenada\EguiaRodriguezJosueFrancisco\obj\Debug\EguiaRodriguezJosueFrancisco.pdb
